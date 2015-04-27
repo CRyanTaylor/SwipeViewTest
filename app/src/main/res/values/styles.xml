@@ -1,0 +1,15 @@
+<resources>
+
+    <!-- Holo Theme with overlay action bar -->
+    <!-- old parent: -->
+    <style name="AppTheme">
+        parent="@android:style/Theme.Holo">
+        <item name="android:windowActionBarOverlay">true</item>
+    </style>
+
+    <!-- Stock theme for slider pages -->
+    <style name="SliderPageTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+
+    </style>
+
+</resources>
